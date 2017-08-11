@@ -43,13 +43,46 @@ nav span {
   padding: 2rem 1.5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #d1d1d1;
 }
 /*image sizing and styles*/
 .start-here .image {
   width: 60%;
+  margin-right: 0.75rem;
 }
 .start-here .image img {
   width: 100%;
   height: auto;
 }
-/*texy and link button*/
+/*text and link button*/
+.learn {
+  color: #434444;
+  width: 40%;
+  margin-left: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+.learn h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.learn h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+/*buttom specific styles*/
+.btn {
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: center;
+  background-color: #434444;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 200ms linear 100ms;
+}
+.btn:hover {
+  background-color: #0ecbed;
+}
