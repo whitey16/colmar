@@ -1,0 +1,55 @@
+/*document base styles*/
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+header {
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  line-height: 2rem;
+  height: 2rem;
+  justify-content: space-between;
+}
+/*logo in top left of desktop site*/
+.logoblock {
+  display: flex;
+}
+.logoblock img {
+  height: 2rem;
+  width: auto;
+}
+#colmar {
+  font-size: 1.5rem;
+  color: grey;
+  margin-left: 0.25rem;
+}
+#colmar strong {
+  color: #434444;
+  font-weight: 500;
+}
+/*page navigation for desktop site*/
+nav {
+  font-size: 1.25rem;
+}
+nav span {
+  padding-left: 1rem;
+}
+
+/*banner section with 'start here' prompt*/
+.start-here {
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+/*image sizing and styles*/
+.start-here .image {
+  width: 60%;
+}
+.start-here .image img {
+  width: 100%;
+  height: auto;
+}
+/*texy and link button*/
