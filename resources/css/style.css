@@ -111,6 +111,9 @@ nav span {
 
 /*information section with multiple sections about different aspects of the school*/
   /*main article*/
+.articles .container {
+  align-items: flex-start;
+}
 .main {
   display: flex;
   flex-direction: column;
@@ -133,6 +136,7 @@ cite {
   display: flex;
   flex-direction: column;
   width: 40%;
+  padding-top: 1rem;
 }
 .article.horizontal {
   display: flex;
@@ -182,4 +186,40 @@ cite {
 }
 .course .details {
   padding: 1rem;
+}
+
+/*thesis exhibit section*/
+.thesis .container {
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.thesis .main {
+  border: none;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.content {
+  display: flex;
+}
+
+/*footer*/
+footer {
+  border-top: 1px solid #eaebed;
+}
+footer .container {
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+footer span {
+  padding: 1rem 2rem;
+}
+.footer-links {
+  padding:1rem 2rem;
+}
+.footer-links span {
+  padding-left: 0.5rem;
+  padding-right: 0;
 }
