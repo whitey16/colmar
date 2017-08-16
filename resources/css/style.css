@@ -2,16 +2,53 @@
 html {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+  /*used throughout document to keep content consistently centered*/
+.container {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+  align-items: center;
+}
+  /*styles to be used throughout document for additional text with images*/
+.details {
+  display: flex;
+  flex-direction: column;
 }
 
 /*header*/
 header {
   padding: 1rem 1.5rem;
-  display: flex;
-  align-items: center;
   line-height: 2rem;
   height: 2rem;
+}
+header .container {
   justify-content: space-between;
+  padding-left: 1.5rem;
 }
 /*logo in top left of desktop site*/
 .logoblock {
@@ -40,40 +77,22 @@ nav span {
 
 /*banner section with 'start here' prompt*/
 .start-here {
-  padding: 2rem 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #d1d1d1;
+  background-color: #eaebed;
 }
-/*image sizing and styles*/
+  /*image sizing and styles*/
 .start-here .image {
   width: 60%;
-  margin-right: 0.75rem;
+  padding: 2rem 1.5rem;
 }
-.start-here .image img {
-  width: 100%;
-  height: auto;
-}
-/*text and link button*/
+  /*text and link button*/
 .learn {
   color: #434444;
   width: 40%;
-  margin-left: 0.75rem;
   display: flex;
   flex-direction: column;
   line-height: 1.25;
 }
-.learn h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-.learn h4 {
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin: 2rem 0;
-}
-/*buttom specific styles*/
+  /*buttom specific styles*/
 .btn {
   padding: 0.5rem 0;
   width: 100%;
@@ -85,4 +104,74 @@ nav span {
 }
 .btn:hover {
   background-color: #0ecbed;
+  color: black;
+}
+
+/*information section with multiple sections about different aspects of the school*/
+  /*main article*/
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+  width: 60%;
+  border-right: 1px solid #eaebed;
+}
+.main .image {
+  margin-bottom: 2rem;
+}
+.main .details span {
+  margin: 1.5rem 0;
+}
+cite {
+  font-weight: 500;
+  display: block;
+}
+  /*secondary articles*/
+.secondary {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.article.horizontal {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.article.horizontal .image {
+  width: 35%;
+  height: auto;
+  /*margin-right: 1rem;*/
+}
+.article.horizontal .details {
+  width: 65%;
+  margin-left: 1rem;
+}
+.details a {
+  color: #448fff;
+}
+.details span {
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+
+/*course information section*/
+.learning {
+  background-color: #eaebed;
+}
+.learning .container {
+  flex-direction: column;
+}
+.courses {
+  padding: 0 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course {
+  width: 30%;
+  background-color: white;
+  margin: 1rem;
+}
+.course .details {
+  padding: 1rem;
 }

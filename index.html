@@ -4,34 +4,175 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+    <!-- import Roboto and Open Sans fonts from Google API -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <title>Colmar Academy</title>
+    <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <!-- header section  -->
     <header>
-      <div class="logoblock">
-        <img src="./resources/images/ic-logo.svg" alt="">
-        <span id="colmar"><strong>COLMAR</strong>ACADEMY</span>
+      <div class="container">
+        <div class="logoblock">
+          <img src="./resources/images/ic-logo.svg" alt="">
+          <span id="colmar"><strong>COLMAR</strong>ACADEMY</span>
+        </div>
+        <nav>
+          <span><a href="#">On Campus</a></span>
+          <span><a href="#">Online</a></span>
+          <span><a href="#">For Companies</a></span>
+          <span><a href="#">Sign In</a></span>
+        </nav>
       </div>
-      <nav>
-        <span>On Campus</span>
-        <span>Online</span>
-        <span>For Companies</span>
-        <span>Sign In</span>
-      </nav>
     </header>
+    <!--  -->
+    <!-- banner section -->
     <div class="start-here">
-      <div class="image">
-        <img src="./resources/images/banner.jpg" alt="">
-      </div>
-      <div class="learn">
-        <h1>Learn something new everyday</h1>
-        <h4>It's super fun to learn a bunch of stuff, why not try it?</h4>
-        <div class="btn">
-          <span>Start here</span>
+      <div class="container">
+        <div class="image">
+          <img src="./resources/images/banner.jpg" alt="">
+        </div>
+        <div class="learn">
+          <h1>Learn something new everyday</h1>
+          <h4>It's super fun to learn a bunch of stuff, why not try it?</h4>
+          <div class="btn">
+            <span>Start here</span>
+          </div>
         </div>
       </div>
     </div>
-
+    <!--  -->
+    <!-- information section -->
+    <div class="articles">
+      <div class="container">
+        <div class="main">
+          <div class="image">
+            <img src="./resources/images/information-main.jpg" alt="">
+          </div>
+          <div class="details">
+            <h2>It doesn't hurt to keep practicing</h2>
+            <span>"For me, I am driven by two main philosophies: know more today about the world than I knew yesterday and lessen the suffering of others. You'd be surprised how far that gets you."</span>
+            <cite>-Neil deGrasse Tyson</cite>
+          </div>
+        </div>
+        <div class="secondary">
+          <div class="article horizontal">
+            <div class="image">
+              <img src="./resources/images/information-orientation.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Orientation date</h3>
+              <span>Tue 10/11 &amp; Wed 10/12: 8am-3pm</span>
+              <span><a href="#">Read More</a></span>
+            </div>
+          </div>
+          <div class="article horizontal">
+            <div class="image">
+              <img src="./resources/images/information-campus.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Our Campus</h3>
+              <span>Find which campus is close to you</span>
+              <span><a href="#">Read More</a></span>
+            </div>
+          </div>
+          <div class="article horizontal">
+            <div class="image">
+              <img src="./resources/images/information-guest-lecture.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Our Guest Lecture</h3>
+              <span>Join keynote with Oliver Sack about music in medical treatment</span>
+              <span><a href="#">Read More</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- course catalog section -->
+    <div class="learning">
+      <div class="container">
+        <div class="start-learning">
+          <h2>Start Learning</h2>
+        </div>
+        <div class="courses">
+          <!-- software engineering course -->
+          <div class="course">
+            <div class="image">
+              <img src="./resources/images/course-software.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Software Engineering</h3>
+              <span><a href="#">COURSES</a></span>
+              <span>Web Development, Mobile Development, iOT, APIs</span>
+            </div>
+          </div>
+          <!--  -->
+          <!-- computer art -->
+          <div class="course">
+            <div class="image">
+              <img src="./resources/images/course-computer-art.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Computer Art</h3>
+              <span><a href="#">COURSES</a></span>
+              <span>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</span>
+            </div>
+          </div>
+          <!--  -->
+          <!-- design course -->
+          <div class="course">
+            <div class="image">
+              <img src="./resources/images/course-design.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Design</h3>
+              <span><a href="#">COURSES</a></span>
+              <span>User Experience Design, User Research, Visual Design</span>
+            </div>
+          </div>
+          <!--  -->
+          <!-- data course -->
+          <div class="course">
+            <div class="image">
+              <img src="./resources/images/course-data.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Data</h3>
+              <span><a href="#">COURSES</a></span>
+              <span>Data Science, Big Data, SQL, Data Visualization</span>
+            </div>
+          </div>
+          <!--  -->
+          <!-- business course -->
+          <div class="course">
+            <div class="image">
+              <img src="./resources/images/course-business.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Business</h3>
+              <span><a href="#">COURSES</a></span>
+              <span>Product Development, Business Development, Startup</span>
+            </div>
+          </div>
+          <!--  -->
+          <!-- marketing course -->
+          <div class="course">
+            <div class="image">
+              <img src="./resources/images/course-software.jpg" alt="">
+            </div>
+            <div class="details">
+              <h3>Marketing</h3>
+              <span><a href="#">COURSES</a></span>
+              <span>Analytics, Content Marketing, Mobile Marketing</span>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <!-- end container -->
+    </div>
   </body>
 </html>
