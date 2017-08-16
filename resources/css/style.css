@@ -21,7 +21,7 @@ h3 {
 }
 h4 {
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 img {
   width: 100%;
@@ -30,7 +30,7 @@ img {
   /*used throughout document to keep content consistently centered*/
 .container {
   display: flex;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
   align-items: center;
 }
@@ -41,18 +41,14 @@ img {
 }
 
 /*header*/
-header {
-  padding: 1rem 1.5rem;
-  line-height: 2rem;
-  height: 2rem;
-}
 header .container {
   justify-content: space-between;
-  padding-left: 1.5rem;
+  line-height: 2rem;
 }
 /*logo in top left of desktop site*/
 .logoblock {
   display: flex;
+  padding: 1rem 1.5rem;
 }
 .logoblock img {
   height: 2rem;
@@ -70,6 +66,7 @@ header .container {
 /*page navigation for desktop site*/
 nav {
   font-size: 1.25rem;
+  padding: 1rem 1.5rem;
 }
 nav span {
   padding-left: 1rem;
@@ -86,11 +83,16 @@ nav span {
 }
   /*text and link button*/
 .learn {
-  color: #434444;
   width: 40%;
   display: flex;
   flex-direction: column;
   line-height: 1.25;
+}
+.learn h3 {
+  margin: 1.5rem 0;
+}
+.learn .details {
+  padding-right: 1.5rem;
 }
   /*buttom specific styles*/
 .btn {
@@ -157,15 +159,21 @@ cite {
 /*course information section*/
 .learning {
   background-color: #eaebed;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 .learning .container {
   flex-direction: column;
+}
+.start-learning {
+  margin-bottom: 1rem;
 }
 .courses {
   padding: 0 3.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex: 1;
 }
 .course {
   width: 30%;
