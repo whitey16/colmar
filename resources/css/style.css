@@ -103,10 +103,14 @@ nav span {
   color: white;
   font-size: 1.5rem;
   transition: all 200ms linear 100ms;
+  border: 1px solid #eaebed;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #0ecbed;
   color: black;
+  border: 1px solid #585859;
+  font-weight: 400;
 }
 
 /*information section with multiple sections about different aspects of the school*/
@@ -143,6 +147,9 @@ cite {
   align-items: center;
   padding: 1rem;
 }
+.article.horizontal:hover {
+  background-color: #eaebed;
+}
 .article.horizontal .image {
   width: 35%;
   height: auto;
@@ -154,6 +161,9 @@ cite {
 }
 .details a {
   color: #448fff;
+}
+.details a:hover {
+  font-style: italic;
 }
 .details span {
   line-height: 1.5;
@@ -214,7 +224,7 @@ footer .container {
   font-size: 0.75rem;
 }
 footer span {
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
 }
 .footer-links {
   padding:1rem 2rem;
