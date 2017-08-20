@@ -24,13 +24,16 @@
           <span><a href="#" role="link">For Companies</a></span>
           <span><a href="#" role="link">Sign In</a></span>
         </nav>
+        <a class="mobile-icon" href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus. Link to on campus courses page."></a>
+        <a class="mobile-icon" href="#"><img src="./resources/images/ic-online.svg" alt="Online. Link to online courses page."></a>
+        <a class="mobile-icon" href="#"><img src="./resources/images/ic-login.svg" alt="Sign in. Link to sign in page."></a>
       </div>
     </header>
     <!-- end header -->
     <!-- banner section -->
     <div class="start-here" role="presentation">
       <div class="container" role="presentation">
-        <div class="image">
+        <div class="image" id="banner">
           <img src="./resources/images/banner.jpg" alt="Picture of students studying">
         </div>
         <div class="learn" role="presentation">
@@ -48,7 +51,8 @@
     <!-- information section -->
     <div class="articles" role="presentation">
       <div class="container" role="presentation">
-        <div class="main">
+        <!-- main article -->
+        <div class="main" id="main-article">
           <div class="image">
             <img src="./resources/images/information-main.jpg" alt="Picture of man reading">
           </div>
@@ -58,10 +62,16 @@
             <cite>-Neil deGrasse Tyson</cite>
           </div>
         </div>
+        <!--  -->
+        <!-- side articles -->
         <div class="secondary">
+          <!--  -->
           <div class="article horizontal">
             <div class="image" role="presentation">
               <a href="#"><img src="./resources/images/information-orientation.jpg" alt="Picture of students walking on a path. Link to orientation page."></a>
+            </div>
+            <div class="image mobile" role="presentation">
+              <a href="#"><img src="./resources/images/information-orientation-mobile.jpg" alt="Picture of students walking on a path. Link to orientation page."></a>
             </div>
             <div class="details">
               <h3>Orientation date</h3>
@@ -69,9 +79,13 @@
               <span><a href="#" role="link">Read More</a></span>
             </div>
           </div>
+          <!--  -->
           <div class="article horizontal">
             <div class="image" role="presentation">
               <a href="#"><img src="./resources/images/information-campus.jpg" alt="Picture of a map hung on a wall in the school. Link to campus page."></a>
+            </div>
+            <div class="image mobile" role="presentation">
+              <a href="#"><img src="./resources/images/information-campus-mobile.jpg" alt="Picture of students walking on a path. Link to orientation page."></a>
             </div>
             <div class="details">
               <h3>Our Campus</h3>
@@ -79,9 +93,13 @@
               <span><a href="#" role="link">Read More</a></span>
             </div>
           </div>
+          <!--  -->
           <div class="article horizontal">
             <div class="image" role="presentation">
               <a href="#"><img src="./resources/images/information-guest-lecture.jpg" alt="Picture of Oliver Sack. Link to guest lecture page."></a>
+            </div>
+            <div class="image mobile" role="presentation">
+              <a href="#"><img src="./resources/images/information-guest-lecture-mobile.jpg" alt="Picture of students walking on a path. Link to orientation page."></a>
             </div>
             <div class="details">
               <h3>Our Guest Lecture</h3>
@@ -89,6 +107,7 @@
               <span><a href="#" role="link">Read More</a></span>
             </div>
           </div>
+          <!--  -->
         </div>
       </div>
       <!-- end container -->
@@ -173,6 +192,27 @@
             </div>
           </div>
           <!--  -->
+          <!-- mobile course blocks -->
+          <div class="course-mobile">
+            <a href="#"><h3>Software Engineering</h3></a>
+          </div>
+          <div class="course-mobile">
+            <a href="#"><h3>Computer Art</h3></a>
+          </div>
+          <div class="course-mobile">
+            <a href="#"><h3>Design</h3></a>
+          </div>
+          <div class="course-mobile">
+            <a href="#"><h3>Data</h3></a>
+          </div>
+          <div class="course-mobile">
+            <a href="#"><h3>Business</h3></a>
+          </div>
+          <div class="course-mobile">
+            <a href="#"><h3>Marketing</h3></a>
+          </div>
+          <!-- end mobile blocks -->
+        </div>
         </div>
       </div>
       <!-- end container -->
@@ -182,11 +222,11 @@
     <div class="thesis">
       <div class="container"  role="presentation">
         <div class="thesis-exhibit">
-          <h2>Thesis Exhibit</h2>
+          <h2>Thesis Exhibits</h2>
         </div>
         <div class="content">
           <div class="main">
-            <div class="image" role="presentation">
+            <div class="image video" role="presentation">
               <video src="./resources/videos/thesis.mp4" autoplay onclick="this.play()">Oops! Something went wrong...</video>
             </div>
             <div class="details">
@@ -231,5 +271,9 @@
       </div>
     </footer>
     </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/foundation.min.js"></script>
+		<script type="text/javascript" src="./resources/js/jquery.visible.js"></script>
+    <script type="text/javascript" src="./resources/js/viewport.js"></script>
   </body>
 </html>
